@@ -21,11 +21,7 @@ body{
 	text-align: center;
 	position: relative;
 }
-#contact p {
-	display: inline;
-	float:left;
-	padding-left:80px;
-}
+
 
 .form-title {
 font-size:20px;
