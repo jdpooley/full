@@ -14,13 +14,14 @@
 	padding:15px;
 	text-align: left;
 	position: relative;
+	width:20%;
 }
 
 #contact-form .h2 {
 }
 
 .form-title {	
-font-size:14px;
+font-size:12px;
    margin-bottom:10px;
    text-align: left;
 }
