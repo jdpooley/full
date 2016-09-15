@@ -16,9 +16,17 @@ form{
 }
 
 .input{
-  margin: auto;
-  position: relative;
-  font-size:14px;
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  
+}
+
+textarea{
+  width: 375px;
+  height: 150px;
+   display: block;
 }
 
 body{
