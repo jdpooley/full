@@ -11,8 +11,9 @@
 
 #contact-form {
 	display: inline;
-	margin:80px
-	padding:15px;
+	padding-left:15px;
+	padding-right:15px;
+
 	text-align: center;
 	position: relative;
 	width:85%;
