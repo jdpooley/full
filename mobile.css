@@ -10,9 +10,9 @@
 
 
 #contact-form {
-	display: inline;
+	display: block;
+	padding-left:20px;
 	text-align: center;
-	position: relative;
 	width:87.5%;
 }
 
