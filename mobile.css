@@ -10,10 +10,10 @@
 
 
 #contact-form {
-	display: inline;
+	display: block;
 	text-align: center;
 	position: relative;
-	width:85%;
+	width:87.5%;
 }
 
 #contact-form .h2 {
