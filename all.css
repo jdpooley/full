@@ -63,7 +63,7 @@ html{
 }
 
 .form-style-6 input[type="submit"],
-.form-style-6 input[type="submit"]{
+.form-style-6 input[type="button"]{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
