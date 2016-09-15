@@ -4,13 +4,14 @@ html{
   font-family:'raleway';
 }
 
-form{
-
+label{
+  width: 4em;
+  float: left;
+  text-align: right;
+  margin-right: 0.5em;
+  display: block
 }
 
-input{
-
-}
 
 textarea{
 
