@@ -18,7 +18,8 @@ body{
 #contact-form {
 	width:400px;
 	display: block;
-	position: absolute;
+	text-align: center;
+	position: relative;
 }
 
 .form-title {
