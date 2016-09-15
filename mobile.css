@@ -10,8 +10,8 @@
 
 
 #contact-form {
-	display: block;
-	text-align: left;
+	display: inline;
+	text-align: center;
 	position: relative;
 	width:87.5%;
 }
