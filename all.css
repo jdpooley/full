@@ -50,9 +50,9 @@ body{
 }
 
 .buttons {
-	border:1px
+	border:1px solid:#000
 	display:inline-block;
-	color:#fff;
+	background-color:#fff;
 	font-size:15px;
 	padding:6px 24px;
 }
