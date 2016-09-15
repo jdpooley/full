@@ -21,6 +21,10 @@ body{
 	text-align: center;
 	position: relative;
 }
+#contact p {
+	float:left;
+	padding-left:80px;
+}
 
 .form-title {
 font-size:20px;
