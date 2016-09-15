@@ -6,7 +6,8 @@ html{
 
 form{
   margin: auto;
-  width: 375px;
+  
+  width: 100%;
   display: block;
   line-height: 24px;
   font-weight: bold;
@@ -15,7 +16,7 @@ form{
 }
 
 .input{
-  width: 375px;
+  width: 100%;
   display: block;
   border: 1px solid #999;
   height: 25px;
