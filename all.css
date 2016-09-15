@@ -15,8 +15,7 @@ body{
 }
 
 #contact-form {
-	float: left;
-	padding-left:200px;
+	padding-left:80px;
 	width:800px;
 	display: block;
 	text-align: center;
