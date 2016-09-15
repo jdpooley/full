@@ -22,6 +22,7 @@
 .form-title {	
 font-size:12px;
    margin-bottom:10px;
+   padding-left:10px;
    text-align: left;
 }
 
@@ -38,7 +39,7 @@ font-size:12px;
 }
 
 .form-message {
-   width: 100%;
+   width: 80%;
 }
 
 .buttons-container {
