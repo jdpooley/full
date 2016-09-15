@@ -22,6 +22,7 @@ body{
 	position: relative;
 }
 #contact p {
+	display: block;
 	float:left;
 	padding-left:80px;
 }
