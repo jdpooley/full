@@ -17,6 +17,7 @@ body{
 
 #contact-form {
 	width:400px;
+	display: block;
 }
 
 .form-title {
