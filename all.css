@@ -50,15 +50,15 @@ body{
 }
 
 .buttons {
-	border:1px solid:#19B5FE
 	display:inline-block;
 	background-color:#fff;
 	font-size:15px;
 	padding:6px 24px;
 }
 .buttons:hover {
-	background-color:#fff;
+
 }
+
 .buttons:active {
 	position:relative;
 	top:1px;
