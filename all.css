@@ -7,8 +7,8 @@ html{
 form{
   margin: auto;
   position: relative;
-  width: 550px;
-  height: 450px;
+  width: 375px;
+  display: block;
   line-height: 24px;
   font-weight: bold;
   padding: 10px;
