@@ -4,7 +4,13 @@ html{
   font-family:'raleway';
 }
 
-formspree{
+.formspree{
+  margin: auto;
+  position: relative;
+  font-size:14px;
+}
+
+.input{
   margin: auto;
   position: relative;
   font-size:14px;
