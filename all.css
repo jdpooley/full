@@ -199,6 +199,7 @@ hr{
 
 .homepagesub{
   font-size:30px;
+  font-weight:300;
   line-height:40px;
   width:100%;
   max-width:800px;
@@ -211,6 +212,7 @@ hr{
 
 .threebox {
     float:left;
+    font-weight:300;
     width: 300px;
     padding: 50px;
     padding-top:0px;
