@@ -265,6 +265,7 @@ hr{
 .jdpbox{
   width:50%;
   max-width:800px;
+  text-align: left;
   margin:auto;
   border:8px solid #19B5FE;
   position:relative;
