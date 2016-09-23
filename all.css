@@ -274,6 +274,19 @@ hr{
 }
 
 
+.jdpbox img{
+  padding: 20px;
+  width:225px;
+}
+
+.jdpbox h2{
+  margin:auto;
+  padding: 20px;
+}
+
+.jdpbox p{
+  padding: 20px;
+}
 
 .clients{
   height:125px;
