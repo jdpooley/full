@@ -275,12 +275,12 @@ hr{
 
 .jdpbox img{
   position:absolute;
-  top:20px;
+  padding: 20px;
   width:225px;
-  z-index:-1;
 }
 
 .jdpbox h2{
+  margin:auto;
   padding-left:200px;
   font-size:50px;
   padding-top:50px;
