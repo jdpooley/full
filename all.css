@@ -274,7 +274,6 @@ hr{
 
 .jdpbox img{
   position:absolute;
-  left:-50px;
   top:20px;
   width:225px;
   z-index:-1;
