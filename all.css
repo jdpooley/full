@@ -99,7 +99,8 @@ header a{
 .navigation a{
   display:inline-block;
   float:right;
-  margin-left:50px;
+  margin-left:120px;
+  margin-bottom:20px;
   text-decoration: none;
   color:#02C39A;
   border-bottom: 4px solid #ED6A5A;
