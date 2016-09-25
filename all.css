@@ -336,7 +336,6 @@ margin-bottom:15px;
 
 .posttitle:after{
   content:'';
-    width: 50px;
     display: block;
     border-bottom: 4px solid #ED6A5A;
     margin-left: -10px;
