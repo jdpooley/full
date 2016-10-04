@@ -157,8 +157,8 @@ margin-top:25px;
 hr{
   width:50px;
   margin:auto;
-  margin-top:70px;
-  margin-bottom:70px;
+  margin-top:50px;
+  margin-bottom:50px;
   clear:both;
 }
 
@@ -200,6 +200,7 @@ hr{
   font-size:28px;
   font-weight:300;
   line-height:40px;
+    width: 90%;
   margin:auto;
 }
 
@@ -223,7 +224,7 @@ hr{
     font-weight:300;
     width: 300px;
     padding: 50px;
-    padding-top:0px;
+    padding-top:10px;
     text-align:left;
 }
 
