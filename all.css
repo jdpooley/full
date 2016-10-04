@@ -1,6 +1,6 @@
 /* COLOURS
 BG - #FFF - #FFF
-PRIMERY - #13293D - #13293D
+PRIMERY - #000 - #000
 SECONDARY - #004E72 - #004E72
 UNDERLINE - #1B98E0 - #1B98E0
 FOOTER - #EFEFEF
@@ -18,7 +18,7 @@ background-color:#FFF;
 body{
   margin:0;
   padding:0;
-  color:#13293D;
+  color:#000;
 
   -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
