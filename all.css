@@ -175,7 +175,8 @@ hr{
 @media only screen and (max-width: 320px) {
 .homepagesplash{
    font-size:20px;
-   margin-bottom:20px;
+   max-width:320px;
+
  }
 }	
 
