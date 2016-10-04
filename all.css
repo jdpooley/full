@@ -172,6 +172,15 @@ hr{
    margin-bottom:20px;
  }
 
+@media only screen and (max-width: 320px) {
+.homepagesplash{
+   padding: 50px;
+   padding-bottom: 5px;
+   font-size:80px;
+   margin-bottom:20px;
+ }
+}	
+
 .homepagesub{
   padding-left: 50px;
   font-size:28px;
