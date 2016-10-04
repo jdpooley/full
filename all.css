@@ -174,7 +174,7 @@ hr{
 
 @media only screen and (max-width: 500px) {
 .homepagebox{
-  margin-top:160px;
+  margin-top:120px;
 
  }
 }	
@@ -190,8 +190,8 @@ hr{
 
 @media only screen and (max-width: 500px) {
 .homepagesplash{
-   font-size:40px;
-   max-width:350px;
+   font-size:44px;
+   max-width:500px;
    width:100%;
  }
 }	
@@ -200,14 +200,14 @@ hr{
   font-size:28px;
   font-weight:300;
   line-height:40px;
-  width:90%;
   margin:auto;
 }
 
 @media only screen and (max-width: 500px) {
 .homepagesub{
-   font-size:20px;
-   max-width:350px;
+   font-size:25px;
+    width:100%;
+   max-width:500px;
 
  }
 }
