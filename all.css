@@ -246,7 +246,7 @@ width: 90%;
 	display: block;
 	text-align: center;
 	margin: auto;
-	max-width:1200px;
+	max-width:1000px;
 }
 .contact-h2 {
     padding-top: 550px;
@@ -270,7 +270,7 @@ width: 90%;
    border: 1px solid #FFF;
    padding-bottom: 8px;
    margin-bottom: 20px;
-   width: 90%;
+   width: 100%;
 }
 .form-field:focus {
    background: #000;
@@ -278,7 +278,7 @@ width: 90%;
 }
 
 .form-message {
-   width: 90%;
+   width: 100%;
     background-color: #000
 }
 
