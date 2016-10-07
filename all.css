@@ -341,6 +341,7 @@ footer{
 footer a{
 color:#BABABA !important;
 font-size:30px !important;	
+	padding-bottom:30px;
 }
 
 footer .threebox p{
