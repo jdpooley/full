@@ -339,8 +339,8 @@ footer{
 }
 
 footer a{
-color:#BABABA
-font-size:20px;	
+color:#BABABA !important;
+font-size:20px !important;	
 }
 
 footer .threebox p{
