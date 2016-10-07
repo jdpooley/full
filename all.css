@@ -241,12 +241,12 @@ hr{
 /* CONTACT FORM */
 
 #contact-form {
-width: 100%;
+width: 90%;
 	font-weight:300;
 	display: block;
 	text-align: center;
 	margin: auto;
-	max-width:1100px;
+	max-width:1200px;
 }
 .contact-h2 {
     padding-top: 550px;
