@@ -98,6 +98,7 @@ header a{
 
 .navigation a{
   display:inline-block;
+  font-family:'Open Sans', sans-serif;
   float:right;
   margin-left:120px;
   margin-bottom:10px;
