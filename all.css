@@ -338,6 +338,11 @@ footer{
   position:relative;
 }
 
+footer a{
+color:#BABABA
+font-size:20px;	
+}
+
 footer .threebox p{
   font-size:15px;
   text-align:center;
