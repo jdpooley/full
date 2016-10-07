@@ -1,7 +1,7 @@
 /* COLOURS
 BG - #000
 PRIMERY - #FFF
-SECONDARY - #666
+SECONDARY - #BABABA
 UNDERLINE - #FFF
 FOOTER - #000
 
@@ -61,7 +61,7 @@ ul, li, p{
 
 p a {
   text-decoration: none;
-  color:#666;
+  color:#BABABA;
   border-bottom: 1px solid #FFF;
   transition:ease-in .05s border-bottom;
  }
@@ -86,7 +86,7 @@ header .logo{
 }
 
 header a{
-  color:#666;
+  color:#BABABA;
 }
 
 /* NAVIGATION */
@@ -102,7 +102,7 @@ header a{
   margin-left:120px;
   margin-bottom:10px;
   text-decoration: none;
-  color:#666;
+  color:#BABABA;
   border-bottom: 4px solid #FFF;
   margin-top:5px;
 
@@ -351,7 +351,7 @@ footer brand{
 /* blog page styling */
 
 .posttitle a{
-  color:#666;
+  color:#BABABA;
   text-decoration:none;
 }
 
