@@ -1,45 +1,27 @@
-/* COLOURS
-BG - #000
-PRIMERY - #FFF
-SECONDARY - #BABABA
-UNDERLINE - #FFF
-FOOTER - #000
-
-*/
-
 /* BASE STYLE */
 html{
 background-color:#000;
-  margin:0px;
-  padding:0px;
-  font-family:'Lato', sans-serif;
+color:#FFF;
+font-family:'Lato', sans-serif;
 }
 
 body{
-  margin:0;
-  padding:0;
-  color:#FFF;
-
   -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     -webkit-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
 }
 
-.container {
-width:100%;
-}
-
 .container-main {
 margin: auto;
-width:95%;
+width:100%;
 }
 
 .pagetitle{
   margin-top:100px;
   font-size: 60px;
   font-weight: 800;
- text-align:center;
+  text-align:center;
 }
 
 .pagecontainer{
@@ -48,39 +30,17 @@ width:95%;
   margin:auto;
 }
 
-/* TEXT STYLING */
 
-ul, li, p{
-  font-size:18px;
-  line-height:35px;
-   -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    -webkit-text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
-  }
-
-/* LINK STYLING */
-
-p a {
-  text-decoration: none;
-  color:#BABABA;
-  border-bottom: 1px solid #FFF;
-  transition:ease-in .05s border-bottom;
- }
-
-p a:hover{
-  border-bottom: 4px solid #FFF;
-}
 
 /* HEADER */
 
  header{
-   width:100%;
+   margin:auto;
+   width:95%;
    font-family:'Lato', sans-serif;
    font-size:25px;
    font-weight:600;
    margin-top:20px;
-   margin-bottom:20px;
  }
 
 header .logo{
@@ -99,14 +59,11 @@ header a{
 }
 
 .navigation a{
-  display:inline-block;
+  font-size:20px;
+  color:#FFF;
   float:right;
-  margin-left:120px;
-  margin-bottom:10px;
+  margin-left:80px;
   text-decoration: none;
-  color:#BABABA;
-  border-bottom: 4px solid #FFF;
-  margin-top:5px;
 
   <!-- transitions -->
   -webkit-transition: padding 100ms;
@@ -116,53 +73,55 @@ header a{
   transition: padding 100ms;
 }
 
+.navigation a:hover{
+ color:#BABABA;
+}
+
 @media only screen and (max-width: 500px) {
 .navigation{
    max-width:50px;
-
  }
 }
 
-.navigation a:hover{
-  padding-bottom:5px;
-}
 
 /* BRAND */
 
 brand{
 line-height:45px;  
 font-family:'Lato', sans-serif;
-font-size:30px;
+font-size:20px;
 font-weight:600;
-border-bottom: 4px solid #FFF;
+color:#FFF;
 display:inline-block;
 margin-top:25px;
 }
 
-.brandsmall{
-  font-weight:600;
-  position:relative;
-  display:inline-block;
-}
-
-.brandsmall:after{
-    display: block;
-    content: '';
-    border-bottom: 4px solid #FFF;
-    position: absolute;
-    right: 0;
-    top:22px;
+brand:hover{
+  color:#BABABA;
 }
 
 
-/* DIV DIVIDER */
+/* TEXT STYLING */
 
-hr{
-  width:50px;
-  margin:auto;
-  margin-top:50px;
-  margin-bottom:50px;
-  clear:both;
+ul, li, p{
+  font-size:18px;
+  line-height:30px;
+  -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+  }
+
+/* LINK STYLING */
+
+p a {
+  color:#FFF;
+    text-decoration:none;
+    font-weight:400;
+ }
+
+p a:hover{
+  color:#BABABA;
 }
 
 /* HOMEPAGE SPLASH */
@@ -172,7 +131,8 @@ hr{
   margin:auto;
   width:100%;
   max-width:1200px;
-  margin-top:70px;
+  margin-top:100px;
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -183,17 +143,14 @@ hr{
 }	
 
 .homepagesplash{
-   padding-top: 80px;
    padding-bottom: 20px;
    font-size:90px;
-   margin-bottom:20px;
     margin: auto;
     width:90%;
  }
 
 @media only screen and (max-width: 500px) {
 .homepagesplash{
-	padding-top:0px;
    font-size:60px;
    max-width:500px;
    width:95%;
@@ -201,12 +158,12 @@ hr{
 }	
 
 .homepagesub{
-  font-size:28px;
+  font-size:30px;
   font-weight:300;
   line-height:40px;
-    padding-bottom: 80px;
     width: 90%;
   margin:auto;
+    padding-bottom:100px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -218,45 +175,51 @@ hr{
  }
 }
 
-.homepagebox p{
-  text-align:left;
+/* SERVICES BOX */
+#threebox-container {
+    text-align: center;
+    margin:auto;
+    overflow:hidden;
+    width:95%;
 }
 
-/* SERVICES BOX */
 
 .threebox {
-    margin: auto;
+    margin:inherit;
     float:left;
     font-weight:300;
     width: 300px;
-    padding: 50px;
-    padding-top:80px;
+    padding-left:50px;
+    padding-right:50px;
     text-align:left;
 }
 
-.threebox h2:after{
-  content:'';
-  border-bottom: 4px solid #FFF;
-  display:block;
-  margin-top:15px;
+
+@media only screen and (max-width: 500px) {
+.threebox{
+    padding-left: 10px;
+    width: 95%;
+    padding-bottom:20px;
+ }
 }
 
 /* CONTACT FORM */
 
+#contact-form-container {
+    padding-top:100px;
+}
+
 #contact-form {
-width: 90%;
+    width: 95%;
 	font-weight:300;
-	display: block;
 	text-align: center;
 	margin: auto;
 	max-width:1100px;
 }
-.contact-h2 {
-    padding-top: 550px;
-}
 
 .contact-p {
   text-align: center !important;
+    font-weight: 300;
   }
 
 .form-title {
@@ -266,18 +229,18 @@ width: 90%;
 }
 
 .form-field {
-	color:#FFF;
+   color:#FFF;
    background: #000;
    text-align: left;
-   font-size:20px;
-   border: 1px solid #FFF;
-   padding-bottom: 8px;
-   margin-bottom: 20px;
+   font-size:16px;
+   border:1px solid #FFF;
+   padding:5px;
+   margin-bottom:20px;
    width: 100%;
 }
 .form-field:focus {
    background: #000;
-   border: 1px solid #FFF;
+   border: 1px solid #BABABA;
 }
 
 .form-message {
@@ -296,7 +259,7 @@ width: 90%;
   background-color: #000;
     color: #FFF;
   border: 1px solid #FFF;
-  padding:20px;
+  padding:8px;
   -webkit-transition: padding 100ms;
   -moz-transition: padding 100ms;
   -ms-transition: padding 100ms;
@@ -305,8 +268,9 @@ width: 90%;
 }
 
 .buttons:hover {
-  padding:20px;
-  border: 4px solid #FFF;
+  border: 1px solid #FFF;
+  background-color: #FFF;
+  color: #000;
 
 }
 
@@ -319,25 +283,21 @@ width: 90%;
 /* FOOTER */
 
 .footerbox {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:100px;
+    padding-top:50px;
+    padding:20px;
     text-align:center;
-
 }
 
 footer{
   width:100%;
   background-color: #000;
-  min-height:100px;
+  min-height:10px;
   text-align:center;
   color:#FFF;
   margin-top:50px;
   font-size:18px;
   text-decoration:none;
   text-align:center;
-  padding-top:0px;
-  padding-bottom:20px;
   position:relative;
 }
 
@@ -357,7 +317,6 @@ footer brand{
   top:20px;
   margin-left:-27px;
   }
-
 
 /* blog page styling */
 
