@@ -20,6 +20,7 @@ body{
     font-smoothing: antialiased;
     -webkit-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
+display:none;
 }
 
 .container-main {
