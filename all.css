@@ -25,6 +25,7 @@ body{
 .container-main {
 margin: auto;
 width:100%;
+	display:none;
 }
 
 .pagetitle{
