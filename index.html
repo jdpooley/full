@@ -30,10 +30,19 @@
 <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
     
 <!--FADEIN-->
-    <script> $(document).ready(function(){
-    $('body').fadeIn();
+    <script> jQuery(function($) {
+  $(document.body).fadeIn(1000);
 });
     </script>
+    
+    <noscript>
+<style type="text/css">
+body {
+    /* Re-displays it by overriding the above */
+    display: block;
+}
+</style>
+</noscript>
     
 <!-- FAVICONS -->
 <!-- Use a generator -->
