@@ -187,8 +187,8 @@ p a:hover{
 
 /* SERVICES BOX */
 #threebox-container {
-    text-align: center !important;
-    margin: 0 auto;
+    text-align: center;
+    margin: auto;
     overflow:hidden;
     width:95%;
 }
