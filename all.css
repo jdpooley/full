@@ -186,12 +186,13 @@ p a:hover{
 }
 
 /* SERVICES BOX */
-#threebox-container {
+/*#threebox-container {
     text-align: center;
+    overflow:hidden;
     margin: auto;
     width:95%;
 }
-
+*/
 
 .threebox {
     margin:auto;
