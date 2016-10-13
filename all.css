@@ -313,6 +313,11 @@ footer{
   position:relative;
 }
 
+footer p{
+color:#FFF;
+font-weight:300;
+}
+
 footer a{
 color:#BABABA !important;
 font-size:25px !important;	
