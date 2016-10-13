@@ -272,6 +272,8 @@ p a:hover{
     color: #FFF;
   border: 1px solid #FFF;
   padding:8px;
+	padding-left:10px;
+	padding-right:10px;
   -webkit-transition: padding 100ms;
   -moz-transition: padding 100ms;
   -ms-transition: padding 100ms;
