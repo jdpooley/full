@@ -1,5 +1,6 @@
 /* BASE STYLE */
 html{
+background-image:url("stock-photo1jpg.jpeg");
 background-color:#000;
 color:#FFF;
 font-family:'Lato', sans-serif;
@@ -16,8 +17,6 @@ color:#BABABA;
 }
 
 body{
-background-image:url("stock-photo1jpg.jpeg");
-
   -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     -webkit-text-rendering: optimizeLegibility;
