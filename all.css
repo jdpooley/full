@@ -177,7 +177,7 @@ p a:hover{
   font-weight:300;
   line-height:40px;
   margin:auto;
-  padding-bottom:200px;
+  padding-bottom:150px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -228,6 +228,7 @@ p a:hover{
 @media only screen and (max-width: 500px) {
 .logobank{
     padding-bottom: 10px; 
+}
 }
 
 .logobank img{
@@ -410,10 +411,6 @@ blockquote{
 }
 
 /*TYPED*/
-
-.element{
-    
-}
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -436,13 +433,13 @@ blockquote{
     100% { opacity:1; }
 }
 
-.typed-cursor:after{
+.typed-cursor::after{
   visibility: visible;
   content: '';
   background-color: #d4f8e3;
   display: inline-block;
   position: relative;
-  width: 0.1em;
+  width: 0.5em;
   height: 1em;
   top: 5px;
   margin-left: 0;
@@ -453,3 +450,6 @@ blockquote{
   -webkit-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
   animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
 }
+
+    
+    
