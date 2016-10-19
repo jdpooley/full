@@ -137,33 +137,30 @@ p a:hover{
 
 /* HOMEPAGE SPLASH */
 
-.smallercontainer{
+.homepagebox{
   text-align:left;
   margin:auto;
   width:100%;
   max-width:1200px;
-  margin-top:100px;
+  margin-top:150px;
 
 }
 
 @media only screen and (max-width: 500px) {
-.smallercontainer{
+.homepagebox{
   margin-top:160px;
 
  }
 }	
 
-.homepagebox{
-min-height:100%; 
-position:relative;
-}
-
-
 .homepagesplash{
+   height:220px;
+   display:inline;
+   display:inline-block;
    padding-bottom: 20px;
    font-size:90px;
-    margin: auto;
-    width:90%;
+   margin: auto;
+   width:90%;
  }
 
 @media only screen and (max-width: 500px) {
@@ -171,6 +168,7 @@ position:relative;
    font-size:60px;
    max-width:500px;
    width:95%;
+    padding-bottom: 100px;
  }
 }	
 
@@ -178,9 +176,8 @@ position:relative;
   font-size:30px;
   font-weight:300;
   line-height:40px;
-    width: 90%;
   margin:auto;
-    padding-bottom:100px;
+  padding-bottom:200px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -188,6 +185,7 @@ position:relative;
    font-size:20px;
     width:95%;
    max-width:500px;
+    padding-bottom: 100px;
 
  }
 }
@@ -219,6 +217,23 @@ position:relative;
     padding-bottom:20px;
  }
 }
+
+.logobank{
+    text-align: center;
+    opacity: 0.75;
+    background-color: black;
+    padding-bottom: 100px; 
+}
+
+@media only screen and (max-width: 500px) {
+.logobank{
+    padding-bottom: 10px; 
+}
+
+.logobank img{
+    padding:3px
+}
+
 
 /* CONTACT FORM */
 
@@ -308,7 +323,6 @@ position:relative;
 
 footer{
   width:100%;
-  background-color: #000;
   min-height:10px;
   text-align:center;
   color:#FFF;
@@ -352,23 +366,24 @@ footer brand{
 /* blog post styling */
 
 .postcontainer{
-  width:90%;
+  width:60%;
   max-width:1200px;
   margin: auto;
   margin-top:100px;
 }
 
 .posttitle{
-font-size:60px;
-margin-bottom:15px;
+font-size:80px;
+margin-bottom:25px;
 }
 
 .posttitle:after{
   content:'';
     display: block;
     border-bottom: 4px solid #FFF;
-    margin-left: -10px;
-    margin-top:5px;
+    width:60px;
+    margin-left: 0px;
+    margin-top:25px;
 }
 
 .subtitle{
@@ -392,4 +407,49 @@ blockquote{
   border-left:4px solid #FFF;
   padding-left:5px;
   font-style:italic;
+}
+
+/*TYPED*/
+
+.element{
+    
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.typed-cursor:after{
+  visibility: visible;
+  content: '';
+  background-color: #d4f8e3;
+  display: inline-block;
+  position: relative;
+  width: 0.1em;
+  height: 1em;
+  top: 5px;
+  margin-left: 0;
+  -moz-box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+  -webkit-box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+  box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+  -moz-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+  -webkit-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+  animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
 }
