@@ -314,7 +314,7 @@ p a:hover{
 .buttons:hover {
   border: 1px solid #FFF;
   background-color: #FFF;
-  color: transparent;
+  color: blue;
 
 }
 
