@@ -1,6 +1,7 @@
 /* BASE STYLE */
 html{
 /*background-image:url("stock-photo1jpg.jpeg");*/
+
 background-color:#2980b9;
 color:#FFF;
 font-family:'Lato', sans-serif;
@@ -220,7 +221,7 @@ p a:hover{
 
 .logobank{
     text-align: center;
-    background-color: #2980b9;
+    background-color: transparent;
     padding-bottom: 100px; 
 }
 
@@ -272,7 +273,7 @@ p a:hover{
 
 .form-field {
    color:#FFF;
-   background: #2980b9;
+   background: transparent;
    text-align: left;
    font-size:16px;
    border:1px solid #FFF;
@@ -281,13 +282,13 @@ p a:hover{
    width: 100%;
 }
 .form-field:focus {
-   background: #2980b9;
+   background: transparent;
    border: 1px solid #BABABA;
 }
 
 .form-message {
    width: 100%;
-    background-color: #2980b9
+    background-color: transparent;
 }
 
 .buttons-container {
@@ -298,7 +299,7 @@ p a:hover{
 .buttons {
   font-family:'lato';
   font-size:20px;
-  background-color: #2980b9;
+  background-color: transparent;
     color: #FFF;
   border: 1px solid #FFF;
   padding:8px;
@@ -312,7 +313,7 @@ p a:hover{
 .buttons:hover {
   border: 1px solid #FFF;
   background-color: #FFF;
-  color: #2980b9;
+  color: transparent;
 
 }
 
