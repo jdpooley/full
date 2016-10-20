@@ -233,6 +233,8 @@ p a:hover{
 .logobank img{
     padding:3px;
     opacity:0.75;
+    width: 75%;
+    max-width: 75px;
 }
 
 @media only screen and (max-width: 500px) {
