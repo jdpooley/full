@@ -229,12 +229,10 @@ p a:hover{
 .logobank{
     text-align: center;
     background-color: transparent;
-    padding-bottom: 10px; 
 }
 
 @media only screen and (max-width: 500px) {
 .logobank{
-    padding-bottom: 10px; 
 }
 }
 
