@@ -1,12 +1,7 @@
 /* BASE STYLE */
 html{
-/*background-image:url("stock-photo1jpg.jpeg");*/
-
-
-background: #232526; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background-image:url("stock-photo1jpg.jpeg");
+background-color:#000;
 color:#FFF;
 font-family:'Lato', sans-serif;
 }
@@ -46,13 +41,7 @@ width:100%;
   margin:auto;
 }
 
-hr{
-  width:50px;
-  margin:auto;
-  margin-top:70px;
-  margin-bottom:70px;
-  clear:both;
-}
+
 
 /* HEADER */
 
@@ -179,6 +168,7 @@ p a:hover{
    font-size:60px;
    max-width:500px;
    width:95%;
+    padding-bottom: 100px;
  }
 }	
 
@@ -187,6 +177,7 @@ p a:hover{
   font-weight:300;
   line-height:40px;
   margin:auto;
+  padding-bottom:150px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -194,6 +185,7 @@ p a:hover{
    font-size:20px;
     width:95%;
    max-width:500px;
+    padding-bottom: 100px;
 
  }
 }
@@ -203,7 +195,6 @@ p a:hover{
     margin: auto;
     text-align: center;
     overflow:hidden;
-    margin-top:-2%;
     width:100%;
 }
 
@@ -229,33 +220,30 @@ p a:hover{
 
 .logobank{
     text-align: center;
-    background-color: transparent;
+    opacity: 0.75;
+    background-color: black;
+    padding-bottom: 100px; 
 }
 
 @media only screen and (max-width: 500px) {
 .logobank{
+    padding-bottom: 10px; 
 }
 }
 
 .logobank img{
-    padding:10px;
-    opacity:1;
-    max-width: 120px;
+    padding:3px
 }
 
-@media only screen and (max-width: 500px) {
-.logobank img{
-  padding: 5px;
-   max-width: 80px;
-	}
-}
 
 /* CONTACT FORM */
 
 #contact-form-container {
+    padding-top:100px;
 }
 
 #contact-form {
+    padding-top:80px;
     width: 95%;
     font-weight:300;
     text-align: center;
@@ -265,8 +253,7 @@ p a:hover{
 
 .contact-p {
   text-align: center !important;
-    font-weight: 600;
-    font-size:30px;
+    font-weight: 300;
   }
 
 .form-title {
@@ -277,7 +264,7 @@ p a:hover{
 
 .form-field {
    color:#FFF;
-   background: transparent;
+   background: #000;
    text-align: left;
    font-size:16px;
    border:1px solid #FFF;
@@ -286,13 +273,13 @@ p a:hover{
    width: 100%;
 }
 .form-field:focus {
-   background: transparent;
+   background: #000;
    border: 1px solid #BABABA;
 }
 
 .form-message {
    width: 100%;
-    background-color: transparent;
+    background-color: #000
 }
 
 .buttons-container {
@@ -303,7 +290,7 @@ p a:hover{
 .buttons {
   font-family:'lato';
   font-size:20px;
-  background-color: transparent;
+  background-color: #000;
     color: #FFF;
   border: 1px solid #FFF;
   padding:8px;
@@ -341,7 +328,7 @@ footer{
   text-align:center;
   color:#FFF;
   margin-top:50px;
-  font-size:12px;
+  font-size:18px;
   text-decoration:none;
   text-align:center;
   position:relative;
@@ -350,17 +337,16 @@ footer{
 footer p{
 color:#FFF;
 font-weight:300;
-font-size:12px;
 }
 
 footer a{
-color:#FFF !important;
+color:#BABABA !important;
 font-size:25px !important;	
 	padding-bottom:30px;
 }
 
 footer .threebox p{
-  font-size:12px;
+  font-size:15px;
   text-align:center;
 }
 
